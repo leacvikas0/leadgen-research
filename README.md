@@ -1,66 +1,75 @@
-# Lead Gen Research
+# Lead Gen Research — Experiment Lab
 
-Research and system design for a **quality-first lead-generation system** for selling premium web work in India (WhatsApp-first, multi-vertical).
+This repo is **not** the full lead-gen product.
 
-**Thesis:** Don’t hunt businesses that merely lack a website. Hunt businesses already paying a **platform tax** or **growth tax**, then open with proof + money math — human send, not bulk spam.
+It is a lab for **small, sequential experiments** that feed a larger quality-first lead system for selling premium web work in India. Each experiment tests one slice (channel, vertical, offer, or hunting method) so we learn before building the “god system.”
 
-## What’s in this repo
+**North-star system (later):** find high-quality buyers → score NEED × ABILITY × TIMING → approach with proof + money math → human send → learn.
+
+**What this repo is for right now:** run and document **one experiment at a time**.
+
+---
+
+## Current experiment (this batch of work)
+
+| | |
+|---|---|
+| **Name** | Photographer portfolio lead test (Task 0) |
+| **Slice** | One vertical + one offer + local hunting (Delhi NCR batch) |
+| **Offer** | Productized photographer portfolio — **₹15k** |
+| **Channel** | WhatsApp / Instagram (human send) |
+| **Goal** | Prove we can find **gold** wedding photographers, open with proof, and get real reply/close signal |
+| **Status** | Research + hunter workflow + first gold batch documented; outbound send in progress |
+
+**This is a small part of the system** — not multi-vertical automation, not bulk spam, not the full Discover → Qualify → Enrich → Draft pipeline productized.
+
+Locked details: [`docs/CURRENT-TASK.md`](./docs/CURRENT-TASK.md) · batch: [`docs/BATCH-1-DELHI-NCR.md`](./docs/BATCH-1-DELHI-NCR.md)
+
+### What we learned into docs (supporting this experiment)
 
 | Path | What |
 |------|------|
-| [`SYNTHESIS.md`](./SYNTHESIS.md) | Short combined playbook (start here for the research outcome) |
-| [`findings-demand.md`](./findings-demand.md) | Where website demand is real (verticals, ₹ math) |
-| [`findings-quality-signals.md`](./findings-quality-signals.md) | NEED × ABILITY × TIMING signals and gold recipes |
-| [`findings-selling.md`](./findings-selling.md) | Offers, angles, channels that convert |
-| [`docs/`](./docs/) | Master plan, decisions, hunter workflow, session continuity |
-| [`hunter-workflow.md`](./hunter-workflow.md) | Quality finder pipeline |
-| [`portfolio-ss/`](./portfolio-ss/) | Screenshots of proof sites used in approaches |
-| Agent briefs (`agent1`–`agent3`) | Scoped research prompts used to produce findings |
+| [`SYNTHESIS.md`](./SYNTHESIS.md) | Combined playbook from demand / quality / selling research |
+| [`findings-demand.md`](./findings-demand.md) | Where website demand is real |
+| [`findings-quality-signals.md`](./findings-quality-signals.md) | N×A×T signals and gold recipes |
+| [`findings-selling.md`](./findings-selling.md) | Angles and channels that convert |
+| [`docs/MASTER-PLAN.md`](./docs/MASTER-PLAN.md) | Full system roadmap (ambition — not what’s shipped) |
+| [`docs/HUNTER-WORKFLOW.md`](./docs/HUNTER-WORKFLOW.md) | Quality finder for this photographer test |
+| [`portfolio-ss/`](./portfolio-ss/) | Proof screenshots for approaches |
 
-## North star
+---
 
-A durable system that:
+## Next experiment
 
-1. **Finds** high-quality buyers for premium web products  
-2. **Scores** them with NEED × ABILITY × TIMING (+ reach)  
-3. **Approaches** with specific proof and money angles (AI draft, human send)  
-4. **Learns** which sources, angles, and offers convert  
-5. **Expands** vertical-by-vertical without rebuilding philosophy each time  
+| | |
+|---|---|
+| **Name** | **LinkedIn** |
+| **Intent** | Test LinkedIn as a hunting + approach surface (different ICP/motion than WA/IG photographer outbound) |
+| **Status** | **Up next** — after / alongside closing the loop on the photographer experiment |
 
-```
-Discover → Qualify (N×A×T) → Enrich → Draft approach → Human send → Learn
-```
+Expect new notes, SOPs, and results under this same repo (or clearly labeled experiment folders) so each test stays separable.
 
-## Product ladder (test order)
+---
 
-| Tier | Product | Ticket (intent) |
-|------|---------|-----------------|
-| A | Creative portfolio (photo first) | ₹15k |
-| B | Wedding *story* site | ₹40k–1L+ |
-| C | Venue / hospitality site | Higher |
-| D | Later verticals | After A–C learnings |
+## Experiment rules
 
-## Principles
+1. **One active slice** — don’t pretend the photographer test *is* the whole lead system  
+2. **Quality over volume** — gold leads, not CSV dumps  
+3. **Proof before pitch** — mock, screenshot, ₹ math  
+4. **Human send** on WA/IG for this experiment — no bulk unofficial spam architecture  
+5. **Write down what we learn** — decisions in [`docs/DECISIONS.md`](./docs/DECISIONS.md)
 
-- Quality over volume — gold leads, not CSV dumps  
-- Deep benefit or intent — platform tax, ads leak, season — not “credibility” lectures  
-- Composite signals — single “no website” is never enough  
-- Proof before pitch — mock, screenshot, ₹ math  
-- Human send on WA/IG — no bulk unofficial spam architecture  
+---
 
 ## How to read
 
-1. **[`SYNTHESIS.md`](./SYNTHESIS.md)** — research outcome  
-2. **[`docs/MASTER-PLAN.md`](./docs/MASTER-PLAN.md)** — full system roadmap  
-3. **[`docs/HUNTER-WORKFLOW.md`](./docs/HUNTER-WORKFLOW.md)** — quality hunter pipeline  
-4. **[`docs/DECISIONS.md`](./docs/DECISIONS.md)** — locked choices  
+1. This README — what’s an experiment vs the big system  
+2. [`docs/CURRENT-TASK.md`](./docs/CURRENT-TASK.md) — active photographer test only  
+3. [`SYNTHESIS.md`](./SYNTHESIS.md) — research outcome behind the hunt  
+4. [`docs/MASTER-PLAN.md`](./docs/MASTER-PLAN.md) — where experiments are meant to go long-term  
 
-New session restart order lives in [`docs/README.md`](./docs/README.md).
-
-## Status
-
-Research + system design phase. Photographer portfolio offer is **Task 0** — validate quality hunting + close path before scaling agents/automation.
+---
 
 ## License
 
-Private research notes for now; treat as all rights reserved unless a license is added later.
+Working notes; all rights reserved unless a license is added later.
